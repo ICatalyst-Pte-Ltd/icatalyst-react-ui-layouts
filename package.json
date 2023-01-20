@@ -1,0 +1,31 @@
+{
+  "name": "@icatalyst/react-ui-layouts",
+  "version": "0.4.0",
+  "main": "./index.js",
+  "types": "./src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ICatalyst-Pte-Ltd/icatalyst-react-ui-layouts.git"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "sideEffects": false,
+  "module": "./index.js",
+  "type": "module",
+  "dependencies": {},
+  "peerDependencies": {
+    "@mui/material": "5.11.1",
+    "tss-react": "3.7.1",
+    "@icatalyst/react-ui-components": "0.5.0",
+    "react": "18.2.0",
+    "@icatalyst/js-core": "0.4.0",
+    "@emotion/react": "11.10.5",
+    "react-redux": "8.0.5",
+    "react-router-dom": "6.4.3",
+    "axios": "0.27.2"
+  }
+}
